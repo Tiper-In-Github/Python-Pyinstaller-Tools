@@ -1141,7 +1141,7 @@ class MaintFrame(wx.Frame):
         #载入用户设置
         LOG_OS.log_log(LOG_OS,'载入用户设置')
         config = configparser.ConfigParser()
-        re = config.read('config-pyinatll.ini')
+        re = config.read('config-pyinatll.ini','utf-8')
         if os.path.isfile('config-pyinatll.ini'):
             # global background
             background = config.get('mianban', option='background')  # 背景颜色
