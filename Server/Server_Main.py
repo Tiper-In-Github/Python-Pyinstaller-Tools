@@ -12,8 +12,13 @@ global port
 global ver
 global newconfig
 config = configparser.ConfigParser()
-re = config.read('config-pyinatll.ini')
-if os.path.isfile('config-pyinatll.ini'):
+parent_dir = os.path.dirname(os.path.abspath(__file__))#解决部分环境下无法获取文件的情况
+re = config.read(parent_dir + "\server-config.ini")
+#print(parent_dir)
+#print(parent_dir + '\server-config.ini')
+#print(re)
+
+if os.path.isfile('server-config.ini'):
     #读取配置信息
     port = config.get('mianban', option='port')#端口
     ver = config.get('mianban', option='ver')#最新版本
