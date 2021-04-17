@@ -9,7 +9,6 @@
 <br>
 <a href="http://www.tiper052.top/index.php/archives/6/">了解更多关于项目的信息？点此浏览作者的最新消息【Tiper个人博客】】</a>  
 
- PS:尚未完全转移到仓库，感兴趣的请耐心等待两天
 
 #### 介绍
 ![avatar](http://www.tiper052.top/usr/uploads/2021/04/1797720377.jpg)
