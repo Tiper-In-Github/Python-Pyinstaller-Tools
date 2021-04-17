@@ -1,13 +1,13 @@
 <a href='https://gitee.com/wubie/Python-Pyinstaller-Tools'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/widgets/widget_5.svg' alt='Fork me on Gitee'></img></a>
 <a align="right" href='https://gitee.com/wubie/custom-online-sign-in/stargazers'><img src='https://gitee.com/wubie/custom-online-sign-in/badge/star.svg?theme=dark' alt='star'></img></a>
-# Python Pyinstaller Tools  python打包助手
+# Python Pyinstaller Tools  python打包工具
 <p align="center">
     <img src ="https://img.shields.io/badge/version-1.0.2-blueviolet.svg"/>
     <img src ="https://img.shields.io/badge/platform-windows|linux|macos-yellow.svg"/>
     <img src ="https://img.shields.io/badge/python-3-blue.svg" />
 </p>
 <br>
-<a href="http://www.tiper052.top/index.php/archives/6/">了解更多关于项目的信息？点此浏览作者的最新消息【Tiper个人博客】】</a>  
+<a target=_blank href="http://www.tiper052.top/index.php/archives/6/">了解更多关于项目的信息？点此浏览作者的最新消息【Tiper个人博客】</a>  
 
 
 #### 介绍
@@ -58,6 +58,7 @@ Server                   #服务端<br>
 8.  运行client(main).py文件，除了打赏作者的图片无法加载，其他内容应该可以全部加载出来
 tip:不修改直接运行客户端可能会弹窗“版本检查失败”(如下图)，且cmd运行不会触发main
 ![avatar](http://www.tiper052.top/usr/uploads/2021/04/2889435720.png)
+如果您发现项目存在任何BUG、设计缺陷、安全缺陷，或者有什么建议，请通过[本仓库issues](https://gitee.com/wubie/Python-Pyinstaller-Tools/issues)准确说明或反馈问题，同时，也支持大家在[本仓库的项目页](http://www.tiper052.top/index.php/archives/6/)的评论区进行评论和交流
 
 #### 参与贡献
 
