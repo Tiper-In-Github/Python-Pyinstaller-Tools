@@ -36,16 +36,16 @@ python打包助手(Python Pyinstaller Tools )，以UI界面的方式，帮助开
 
 #### 软件架构
 软件架构说明
-.gitignore               #git
-README.en.md             #英文文档
-README.md                #中文文档
-client                   #客户端
-|--UppMode.py            #客户端更新/修复模块
-|--client.py             #客户端主程序
-|--config-pyinstall.ini  #客户端配置文件
-Server                   #服务端
-|--Server_Main.py        #服务器主程序
-|--server-config.ini     #服务端配置文件
+.gitignore               #git<br>
+README.en.md             #英文文档<br>
+README.md                #中文文档<br>
+client                   #客户端<br>
+|--UppMode.py            #客户端更新/修复模块<br>
+|--client.py             #客户端主程序<br>
+|--config-pyinstall.ini  #客户端配置文件<br>
+Server                   #服务端<br>
+|--Server_Main.py        #服务器主程序<br>
+|--server-config.ini     #服务端配置文件<br>
 
 #### 如何部署测试
 
