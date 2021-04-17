@@ -1,4 +1,13 @@
+<a href='https://gitee.com/wubie/custom-online-sign-in'><img src='https://gitee.com/wubie/custom-online-sign-in/widgets/widget_6.svg' alt='Fork me on Gitee'></img></a>
+<a align="right" href='https://gitee.com/wubie/custom-online-sign-in/stargazers'><img src='https://gitee.com/wubie/custom-online-sign-in/badge/star.svg?theme=dark' alt='star'></img></a>
 # Python Pyinstaller Tools  python打包助手
+<p align="center">
+    <img src ="https://img.shields.io/badge/version-1.0.2-blueviolet.svg"/>
+    <img src ="https://img.shields.io/badge/platform-windows|linux|macos-yellow.svg"/>
+    <img src ="https://img.shields.io/badge/python-3-blue.svg" />
+</p>
+<br>
+<a href="#">了解更多关于项目的信息？点此浏览最新官方消息【暂时关闭】</a>  
 
  PS:尚未完全转移到仓库，感兴趣的请耐心等待两天
 
