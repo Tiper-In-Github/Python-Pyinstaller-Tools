@@ -12,6 +12,7 @@
  PS:尚未完全转移到仓库，感兴趣的请耐心等待两天
 
 #### 介绍
+![avatar](http://www.tiper052.top/usr/uploads/2021/04/1797720377.jpg)
 python打包助手(Python Pyinstaller Tools )，以UI界面的方式，帮助开发者快速、便捷地打包项目程序，本项目适用于几乎所有python3版本，基于Pyinstaller库进行打包，可以在大部分windows环境下实现自动安装所需依赖库.<br>
 客户端程序包含了完整的<br>
 1.基础打包<br>
