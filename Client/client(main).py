@@ -721,7 +721,7 @@ class LoginFrame(wx.Frame):
         LOG_OS.log_log(LOG_OS,'[自动检查版本]连接版本服务器..')
         try:
             client = socket.socket()  # 生成socket连接对象
-            ip_port = ("106.12.103.112", 6979)  # 地址和端口号 填localhost可以进行本地测试【这里替换为自己的IPIP地址或者域名】
+            ip_port = ("106.12.103.112", 6979)  # 地址和端口号 填localhost可以进行本地测试【这里替换为自己的IP地址或者域名】
             client.connect(ip_port)  # 连接
         except:
             print("[%s]状态：连接服务器失败！" % (time.strftime("%F %H:%M:%S")))
@@ -847,7 +847,7 @@ class LoginFrame(wx.Frame):
             #print('成功获取到服务器ip地址，已经复制完成，请删除你刚输入的服务器索引。')
             servername = 'FPA'
             try:
-                con.open('182.61.28.124', port='6666', timeout=10)  # 正式连接服务器【这里替换为自己的IPIP地址或者域名】
+                con.open('182.61.28.124', port='6666', timeout=10)  # 正式连接服务器【这里替换为自己的IP地址或者域名】
             except:
                 winsound.PlaySound("s01.wav", winsound.SND_ASYNC)
                 dlg = wx.MessageDialog(self, "连接失败\n请检查你是否输入了正确的索引（服务器名）\n或网络是否正常，如果以上情况均不存在.\n可能服务器已经不再支持当前版本，请到官网更新软件\n - www.huoyinetwork.cn", "连接失败", wx.OK)
@@ -863,7 +863,7 @@ class LoginFrame(wx.Frame):
             #print('成功获取到服务器ip地址，已经复制完成，请删除你刚输入的服务器索引。')
             servername = '樱花城'
             try:
-                con.open('182.61.28.124', port='5555', timeout=10)  # 正式连接服务器【这里替换为自己的IPIP地址或者域名】
+                con.open('182.61.28.124', port='5555', timeout=10)  # 正式连接服务器【这里替换为自己的IP地址或者域名】
             except:
                 winsound.PlaySound("s01.wav", winsound.SND_ASYNC)
                 dlg = wx.MessageDialog(self, "连接失败\n请检查你是否输入了正确的索引（服务器名）\n或网络是否正常，如果以上情况均不存在.\n可能服务器已经不再支持当前版本，请到官网更新软件\n - www.huoyinetwork.cn", "连接失败", wx.OK)
@@ -1424,7 +1424,7 @@ class MaintFrame(wx.Frame):
         LOG_OS.log_log(LOG_OS,"运行版本检查")
         try:
             client = socket.socket()  # 生成socket连接对象
-            ip_port = ("106.12.103.112", 6979)  # 地址和端口号 填localhost可以进行本地测试【这里替换为自己的IPIP地址或者域名】
+            ip_port = ("106.12.103.112", 6979)  # 地址和端口号 填localhost可以进行本地测试【这里替换为自己的IP地址或者域名】
             client.connect(ip_port)  # 连接
         except:
             LOG_OS.log_log(LOG_OS,"[%s]状态：连接服务器失败！3秒后退出..." %(time.strftime("%F %H:%M:%S")))
