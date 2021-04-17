@@ -7,7 +7,7 @@
     <img src ="https://img.shields.io/badge/python-3-blue.svg" />
 </p>
 <br>
-<a href="#">了解更多关于项目的信息？点此浏览最新官方消息【暂时关闭】</a>  
+<a href="http://www.tiper052.top/index.php/archives/6/">了解更多关于项目的信息？点此浏览最新官方消息【Tiper博客】</a>  
 
  PS:尚未完全转移到仓库，感兴趣的请耐心等待两天
 
