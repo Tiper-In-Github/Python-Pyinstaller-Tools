@@ -1,4 +1,4 @@
-<a href='https://gitee.com/wubie/custom-online-sign-in'><img src='https://gitee.com/wubie/custom-online-sign-in/widgets/widget_6.svg' alt='Fork me on Gitee'></img></a>
+<a href='https://gitee.com/wubie/Python-Pyinstaller-Tools'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/widgets/widget_2.svg' alt='Fork me on Gitee'></img></a>
 <a align="right" href='https://gitee.com/wubie/custom-online-sign-in/stargazers'><img src='https://gitee.com/wubie/custom-online-sign-in/badge/star.svg?theme=dark' alt='star'></img></a>
 # Python Pyinstaller Tools  python打包助手
 <p align="center">
@@ -35,15 +35,17 @@ python打包助手(Python Pyinstaller Tools )，以UI界面的方式，帮助开
 
 #### 软件架构
 软件架构说明
+.gitignore               #git
+README.en.md             #英文文档
+README.md                #中文文档
+client                   #客户端
+|--UppMode.py            #客户端更新/修复模块
+|--client.py             #客户端主程序
+|--config-pyinstall.ini  #客户端配置文件
+Server                   #服务端
+|--Server_Main.py        #服务器主程序
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
+#### 安装使用说明
 
 1.  xxxx
 2.  xxxx
@@ -56,12 +58,3 @@ python打包助手(Python Pyinstaller Tools )，以UI界面的方式，帮助开
 3.  提交代码
 4.  新建 Pull Request
 
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
