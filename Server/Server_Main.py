@@ -1,16 +1,31 @@
 #coding=utf-8
-
 # 服务器端
 
 import socket
 import os
 import hashlib
 import time
+import configparser
+
+print('Loading for config...')
+global port
+global ver
+global newconfig
+config = configparser.ConfigParser()
+re = config.read('config-pyinatll.ini')
+if os.path.isfile('config-pyinatll.ini'):
+    #读取配置信息
+    port = config.get('mianban', option='port')#端口
+    ver = config.get('mianban', option='ver')#最新版本
+    newconfig = config.get('mianban',option='newconfig')#最新版本提醒配置（描述、大小、下载地址）
+    
+else:
+    print('读取配置文件失败，5s后终止程序')
+    time.sleep(5)
+    exit()
 
 server = socket.socket()
-
-server.bind(("", 6979)) # 绑定监听端口 填localhost可以进行本地测试
-
+server.bind(("", port)) # 绑定监听端口 填localhost可以进行本地测试
 server.listen(5)  # 监听
 
 print("监听开始..")
@@ -38,7 +53,7 @@ while True:
         try:
             cmd, filename = data.decode("utf-8").split(" ")
         except:
-            print('该IP直接通过浏览器访问!!发送引导信息。。。')
+            print('该IP直接通过浏览器访问，发送引导信息。。。')
             wenl = ('This server is only for software system calls. Please copy the following link to the browser to download the software.\nhttp://www.huoyifpa.top/static/HO/fpaup32bit.zip').encode('utf-8')
             conn.send(wenl)
             break
@@ -83,7 +98,7 @@ while True:
         elif cmd == 'Verg':
                 print('客户端请求版本检查')
                 #版本检查及更新类型确定
-                verg = ('V1.0.2@This new version fixes some compatibility problems between bug and client that the software cannot update the installation package. You will get a better experience by updating it.@exe')  # 最新版本号（公）、更新记录及版本说明，以@作为分隔符
+                verg = ('%s@%s' %(vew,newconfig))  # 最新版本号（公）、更新记录及版本说明，以@作为分隔符
                 conn.send(str(verg).encode("utf-8"))
                 break
         elif cmd == "Exit":

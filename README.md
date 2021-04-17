@@ -1,4 +1,4 @@
-<a href='https://gitee.com/wubie/Python-Pyinstaller-Tools'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/widgets/widget_2.svg' alt='Fork me on Gitee'></img></a>
+<a href='https://gitee.com/wubie/Python-Pyinstaller-Tools'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/widgets/widget_5.svg' alt='Fork me on Gitee'></img></a>
 <a align="right" href='https://gitee.com/wubie/custom-online-sign-in/stargazers'><img src='https://gitee.com/wubie/custom-online-sign-in/badge/star.svg?theme=dark' alt='star'></img></a>
 # Python Pyinstaller Tools  python打包助手
 <p align="center">
@@ -23,7 +23,8 @@ python打包助手(Python Pyinstaller Tools )，以UI界面的方式，帮助开
 6.软件反馈<br>
 7.软件设置<br>
 8.在线打赏作者<br>
-等功能，UI界面和交互卡顿问题可能需要有所改进。<br>
+9.错误报告<br>
+等功能，UI界面和交互卡顿问题可能需要有所改进，本开源项目的服务端代码整合为了一个文件，将写死的版本部分改成了读取配置文件。<br>
 <h2>本项目包含完整客户端和服务端程序，客户端可离线运行</h2>
 之前在火毅网络团队的时候，开发出来供内部人员使用的，所以部分弹窗和界面可能包含已过期信息和网址
 
