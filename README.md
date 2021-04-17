@@ -45,12 +45,18 @@ client                   #客户端
 |--config-pyinstall.ini  #客户端配置文件
 Server                   #服务端
 |--Server_Main.py        #服务器主程序
+|--server-config.ini     #服务端配置文件
 
-#### 安装使用说明
+#### 如何部署测试
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  克隆\下载本仓库
+2.  打开项目文件夹/解压目录
+3.  进入/server目录下，通过编译器或cmd启动并运行Server_Main.py，默认配置已经写入server-pyinstaller.ini中
+4.  如果服务端窗口输出“监听开始..”字样，说明服务端已经开始正常工作了
+5.  进入/Client目录下，用编辑器打开client(main).py文件
+6.  在client(main).py文件中搜索“【这里替换为自己的IPIP地址或者域名】”，按代码注释的提示替换为自己的IP地址或域名(项目一直处于测试阶段，未整合为配置文件)
+7.  完成修改后可以视情况看是否要修改UpMode.py，同意是替换IP地址
+8.  运行client(main).py文件，除了打赏作者的图片无法加载，其他内容应该可以全部加载出来
 
 #### 参与贡献
 
