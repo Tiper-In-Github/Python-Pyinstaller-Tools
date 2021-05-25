@@ -7,7 +7,7 @@
     <img src ="https://img.shields.io/badge/python-3-blue.svg" />
 </p>
 <br>
-<a target=_blank href="https://blog.csdn.net/qq_41501331/article/details/115799182">了解更多关于项目的信息？点击这里看看作者怎么说</a>  
+<a target=_blank href="https://blog.csdn.net/qq_41501331/article/details/115799182">了解更多关于项目的信息？点击这里看看作者怎么说</a>  <br/>
 项目文档：<a target=_blank href="https://www.showdoc.com.cn/PyinstallerTools?page_id=6925714872659411">https://www.showdoc.com.cn/PyinstallerTools?page_id=6925714872659411</a>  （基于后期不断更新的文档，您可以更好地阅读源码并进行学习，且文档包含0基础开发流程）
 
 #### 介绍
