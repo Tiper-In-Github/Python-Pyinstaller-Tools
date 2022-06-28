@@ -1,69 +1,63 @@
-<a href='https://gitee.com/wubie/Python-Pyinstaller-Tools'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/widgets/widget_5.svg' alt='Fork me on Gitee'></img></a>
-<a align="right" href='https://gitee.com/wubie/custom-online-sign-in/stargazers'><img src='https://gitee.com/wubie/custom-online-sign-in/badge/star.svg?theme=dark' alt='star'></img></a>
-# Python Pyinstaller Tools  python打包工具
-<p align="center">
-    <img src ="https://img.shields.io/badge/version-1.0.2-blueviolet.svg"/>
-    <img src ="https://img.shields.io/badge/platform-windows|linux|macos-yellow.svg"/>
-    <img src ="https://img.shields.io/badge/python-3-blue.svg" />
-</p>
-<br>
-<a target=_blank href="https://blog.csdn.net/qq_41501331/article/details/115799182">了解更多关于项目的信息？点击这里看看作者怎么说</a>  <br/>
-项目文档：<a target=_blank href="https://www.showdoc.com.cn/PyinstallerTools?page_id=6925714872659411">https://www.showdoc.com.cn/PyinstallerTools?page_id=6925714872659411</a>  （基于后期不断更新的文档，您可以更好地阅读源码并进行学习，且文档包含0基础开发流程）
+[TOC]
 
-#### 介绍
-![avatar](http://www.tiper052.top/usr/uploads/2021/04/1797720377.jpg)
-python打包助手(Python Pyinstaller Tools )，以UI界面的方式，帮助开发者快速、便捷地打包项目程序，本项目适用于几乎所有python3版本，基于Pyinstaller库进行打包，可以在大部分windows环境下实现自动安装所需依赖库.<br>
-客户端程序包含了完整的<br>
-1.基础打包<br>
-2.进阶打包(添加软件信息)<br>
-3.版本检查<br>
-4.版本更新<br>
-5.软件公告<br>
-6.软件反馈<br>
-7.软件设置<br>
-8.在线打赏作者<br>
-9.错误报告<br>
-等功能，UI界面和交互卡顿问题可能需要有所改进，本开源项目的服务端代码整合为了一个文件，将写死的版本部分改成了读取配置文件。<br>
-<h2>本项目包含完整客户端和服务端程序，客户端可离线运行</h2>
-之前在火毅网络团队的时候，开发出来供内部人员使用的，所以部分弹窗和界面可能包含已过期信息和网址
+欢迎使用Pyinstaller Tools!!
+![PyinstallerTools](https://www.showdoc.com.cn/server/api/attachment/visitfile/sign/ae1c59d26bc889b5da76662422c31dec "PyinstallerTools")
 
-####  如果该项目可以得到大家的喜欢，我会去优化和清除这些信息，并尝试改进UI和交互卡顿问题
+项目名称：Pyinstaller Tools(python打包工具箱)
+涉及语言：Python3
+开源类型：19年至21年生产环境项目开源
+时间节点：19年初版开发完成，21年4月首次开源
+Gitee.com（https://gitee.com/wubie/Python-Pyinstaller-Tools ）
+Github.com(https://github.com/Tiper-In-Github/Python-Pyinstaller-Tools )
+参考及动态：CSDN：https://blog.csdn.net/qq_41501331/article/details/115799182
 
-####  由于是完整项目转移至仓库，您可以在遵守开源协议的前提下，将本项目打包发布并通过服务端维护自己的更新。是不是很棒呢
+##### 简要描述
 
-您也可以尝试将软件二次开发为单机软件，去除验证和服务器连接的部分，这样可以缩短软件加载时间
+- Pyinstaller Tools是一款功能较为完善的Python项目打包UI，它基于Pyinstaller(如果您未安装请不要担心，客户端会自动完成最新版pyinstaller的安装)为用户提供python项目的打包服务，本质上是一个UI。但是极大便利了开发者并且提升了效率。***最初是我们团队自己运营和使用的工具，现在开源出来供初学者学习，此外，我们允许任何组织和个人，在遵守MulanPSL-2.0(木兰宽松协议)的前提下，对项目进行拷贝、下载、二次开发以及商业用途。***
+- 项目仓库中是**完整的系统源码**，对于需要自用的用户，可以删除客户端中的版本检查部分代码，**程序完全可以离线运行**，联网功能仅用于我们在运营时的版本更新。
 
-#### 软件架构
+##### 通过本项目我可以学习到什么
+通过本项目您可以学习到：
+- Python3的基本语法
+- python中socket通信
+- 基于tkinter（tk）的UI界面开发布局
+- 基于python语言基础，构建完整的C/S架构服务体系
+- python开发基础的网络服务器(Web编程)
+**PS：如果您是有python基础和开发校验的开发者，可以前往阅读Gitee仓库的Wiki（[点击前往PyinstallerToolsWiki](https://gitee.com/wubie/Python-Pyinstaller-Tools/wikis/Pyinstaller%20Tools%E6%A6%82%E8%BF%B0 "PyinstallerToolsWiki")）**
+
+##### 项目结构
+
 软件架构说明
-.gitignore               #git<br>
-README.en.md             #英文文档<br>
-README.md                #中文文档<br>
-client                   #客户端<br>
-|--UppMode.py            #客户端更新/修复模块<br>
-|--client.py             #客户端主程序<br>
-|--config-pyinstall.ini  #客户端配置文件<br>
-Server                   #服务端<br>
-|--Server_Main.py        #服务器主程序<br>
-|--server-config.ini     #服务端配置文件<br>
+.gitignore #git
+README.en.md #英文文档(空)
+README.md #中文文档
+client #客户端
+|--UppMode.py #客户端更新/修复模块
+|--client.py #客户端主程序
+|--config-pyinstall.ini #客户端配置文件
+Server #服务端
+|--Server_Main.py #服务器主程序
 
-#### 如何部署测试
 
-1.  克隆\下载本仓库
-2.  打开项目文件夹/解压目录
-3.  进入/server目录下，通过编译器或cmd启动并运行Server_Main.py，默认配置已经写入server-pyinstaller.ini中
-4.  如果服务端窗口输出“监听开始..”字样，说明服务端已经开始正常工作了
-5.  进入/Client目录下，用编辑器打开client(main).py文件
-6.  在client(main).py文件中搜索“【这里替换为自己的IP地址或者域名】”，按代码注释的提示替换为自己的IP地址或域名(项目一直处于测试阶段，未整合为配置文件)
-7.  完成修改后可以视情况看是否要修改UpMode.py，同意是替换IP地址
-8.  运行client(main).py文件，除了打赏作者的图片无法加载，其他内容应该可以全部加载出来
-tip:不修改直接运行客户端可能会弹窗“版本检查失败”(如下图)，且cmd运行不会触发main
-![avatar](http://www.tiper052.top/usr/uploads/2021/04/2889435720.png)
-如果您发现项目存在任何BUG、设计缺陷、安全缺陷，或者有什么建议，请通过[本仓库issues](https://gitee.com/wubie/Python-Pyinstaller-Tools/issues)准确说明或反馈问题，同时，也支持大家在[本仓库的项目页](http://www.tiper052.top/index.php/archives/6/)的评论区进行评论和交流
+##### 如何部署测试？
+1. 克隆下载本仓库
+2.     打开项目文件夹/解压目录
+3.     进入/server目录下，通过编译器或cmd启动并运行Server_Main.py，默认配置已经写入server-pyinstaller.ini中
+4.     如果服务端窗口输出“监听开始..”字样，说明服务端已经开始正常工作了
+5.     进入/Client目录下，用编辑器打开client(main).py文件
+6.     在client(main).py文件中搜索“【这里替换为自己的IP地址或者域名】”，按代码注释的提示替换为自己的IP地址或域名(项目一直处于测试阶段，未整合为配置文件)
+7.     完成修改后可以视情况看是否要修改UpMode.py，同意是替换IP地址
+8.     运行client(main).py文件，除了打赏作者的图片无法加载，其他内容应该可以全部加载出来
 
-#### 参与贡献
+**tip**:*不修改直接运行客户端可能会弹窗“版本检查失败”，且cmd运行不会触发main
+*
+![](https://img-blog.csdnimg.cn/img_convert/eedcecefe5ca037454d258aef80f0eca.png)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+##### 写在最后
+感谢好心人来阅读本文档，在线求个star
 
+[![无别/Pyinstaller Tools python打包助手](https://gitee.com/wubie/Python-Pyinstaller-Tools/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/wubie/Python-Pyinstaller-Tools) 
+
+#### 代码托管平台
+[![](https://www.showdoc.com.cn/server/api/attachment/visitfile/sign/152d56092e687cdfdab8855b5c6cf7fd)](http://gitee.com/)
+[![](https://www.showdoc.com.cn/server/api/attachment/visitfile/sign/3b5e56a9a1fa1a48a181be6de589c9ed)](http://github.com/)
