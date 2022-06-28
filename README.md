@@ -1,15 +1,14 @@
-<a href='https://gitee.com/wubie/Python-Pyinstaller-Tools'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/widgets/widget_5.svg' alt='Fork me on Gitee'></img></a>
-<a align="right" href='https://gitee.com/wubie/Python-Pyinstaller-Tools/stargazers'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/badge/star.svg?theme=dark' alt='star'></img></a>
 # Python Pyinstaller Tools  python打包工具
 <p align="center">
     <img src ="https://img.shields.io/badge/version-1.0.2-blueviolet.svg"/>
     <img src ="https://img.shields.io/badge/platform-windows|linux|macos-yellow.svg"/>
     <img src ="https://img.shields.io/badge/python-3-blue.svg" />
+<a align="right" href='https://gitee.com/wubie/Python-Pyinstaller-Tools/stargazers'><img src='https://gitee.com/wubie/Python-Pyinstaller-Tools/badge/star.svg?theme=dark' alt='star'></img></a>
 </p>
 <br>
 <a target=_blank href="https://blog.csdn.net/qq_41501331/article/details/115799182">了解更多关于项目的信息？点击这里看看作者怎么说</a>  <br/>
 初学者项目文档：<a target=_blank href="https://www.showdoc.com.cn/PyinstallerTools?page_id=6925714872659411">https://www.showdoc.com.cn/PyinstallerTools?page_id=6925714872659411</a>  （基于后期不断更新的文档，您可以更好地阅读源码并进行学习，且文档包含0基础开发流程）
-源码阅读/开发环境及基础<br/ ><h3>如果你有Python基础和开发校验，可以直接阅读本仓库Wiki</h3>
+源码阅读/开发环境及基础<br/ ><h3>如果你有Python基础和开发校验，可以直接阅读主仓库Wiki（gitee）</h3>
 
 ![PyinstallerTools](main_image.jpg "PyinstallerTools")
 
